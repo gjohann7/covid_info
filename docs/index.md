@@ -75,6 +75,11 @@ charts.
 
 ### Charts
 
+This last section abords all the design and behaviors of each chart. There were used the
+pie, bar (the vertical and horizontal ones), line - as time series, and stacked area line
+charts. In addition to the graphics being interactable, they also satisfy the data
+visualization principles.
+
 ### Brief Recap
 
 - Características do sistema
