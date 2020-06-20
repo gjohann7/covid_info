@@ -22,7 +22,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Installation
 
-These instructions consider you already have a device emulator or
+These instructions consider you already have Flutter and a device emulator or
 a real device. Also, they don't explain details about the device-computer
 connection.
 
