@@ -1,6 +1,6 @@
 # COVID-19 INFO App 
 
-<p style="text-align: left;"><i>Project developed by Guilherme Alexandre dos Santos Johann</i></p>
+<p style="width:100%; text-align: left;"><i>Project developed by Guilherme Alexandre dos Santos Johann</i></p>
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <p style="max-width:60%;">The project was developed under Mobile Applications and Services course from the Software Engineering Master at Superior School of Technology, Polytechnic Institute of Setúbal (ESTS/IPS) during the 2020 year.</p>
@@ -67,10 +67,10 @@ These sections describe the models of the business role and define how the syste
 can interact with the database. Even though it may seem strange, not all the models
 are persisted.
 
-The persisted models are the `global`, `country` and `all status by country`. These three
+The persisted models are the `global`, `country` and `all_status_by_country`. These three
 models hold all the necessary data from the app. The other models support the logic of the
 communication between the software layers. Among the support models, an important one is the
-`chart data` model. It provides a template from which all models can be rendered by the
+`chart_data` model. It provides a template from which all models can be rendered by the
 charts.
 
 ### Charts
