@@ -12,6 +12,14 @@
 - Objetivos da aplicação - descrição do problema
 - O que o sistema resolve após os testes
 
+The application goal is to provide people with updated information about COVID-19
+status. It considers the whole world, as well as it does contemplate a country
+perspective.
+
+Therefore, the app affords the COVID-19's data visualization using charts to inform
+and keep the user tuned about it. Yet, for those more concerned about the COVID-19
+situation, the charts may provide insights from them.
+
 ## Who should use this App
 
 - Caracterização dos Utilizadores
