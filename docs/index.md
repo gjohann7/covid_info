@@ -1,4 +1,4 @@
-# COVID-19 INFO App 
+# COVID-19 INFO
 
 *Project developed by Guilherme Alexandre dos Santos Johann*
 
