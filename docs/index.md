@@ -47,6 +47,20 @@ to retrieve the localization, and then the current country name.
 
 ### Logic Aspect
 
+The second section is responsible for the app business role. This can be defined as the
+core section because it affects the UI and the database, as well as it is responsible to
+effectively connect to the COVID-19 API.
+
+>The API used can be found [here](https://covid19api.com/), and its documentation, [here](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest).
+
+The logic flow complies to this process pattern:
+1. Try to retrieve the data from the API;
+2. If succeed, treat the response data and turn it into objects, and also save the data in the database;
+3. Otherwise, throws an error:
+   - In this case, the system tries to read the data requested to the API from the database:
+      - If fails or there is no data stored, throws an error.
+4. Return either an object with the data requested or an error.
+
 ### Database
 
 ### Models
