@@ -1,4 +1,4 @@
-# Welcome to the COVID-19 INFO app documentation!
+# COVID-19 INFO App 
 
 *Guilherme Alexandre dos Santos Johann*
 
