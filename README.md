@@ -1,7 +1,7 @@
 # COVID-19 INFO
-[![flutter](https://github.com/gjohann7/covid_info/badges/mobile-flutter-blue.svg)](https://flutter.dev/)
-![status](https://github.com/gjohann7/covid_info/badges/status-finished-brightgreen.svg)
-[![about](https://github.com/gjohann7/covid_info/badges/docs-about-orange.svg)](https://gjohann7.github.io/covid_info/)
+[![flutter](https://github.com/gjohann7/covid_info/tree/master/badges/mobile-flutter-blue.svg)](https://flutter.dev/)
+![status](https://github.com/gjohann7/covid_info/tree/master/badges/status-finished-brightgreen.svg)
+[![about](https://github.com/gjohann7/covid_info/tree/master/badges/docs-about-orange.svg)](https://gjohann7.github.io/covid_info/)
 
 This Flutter project aims to show a data visualization on the COVID-19 status.
 
@@ -58,9 +58,9 @@ others data visualizations.
 
 Guilherme Alexandre dos Santos Johann (2020).
 
-Contacts:\
-<a href="https://www.linkedin.com/in/guilherme-johann/" target="_blank">Linkedin</a> or\
-<a href="mailto:g.johann98@gmail.com" target="_blank">Email</a>.
+Contacts:
+- <a href="https://www.linkedin.com/in/guilherme-johann/" target="_blank">Linkedin</a>;
+- <a href="mailto:g.johann98@gmail.com" target="_blank">Email</a>.
 
 ## Project status
 
