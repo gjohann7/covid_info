@@ -80,7 +80,7 @@ pie, bar (the vertical and horizontal ones), line - as time series, and stacked 
 charts. In addition to the graphics being interactable, they also satisfy the data
 visualization principles.
 
-### Brief Notes
+### Final Notes
 
 With the use of the `chart_data` model, the system becomes much more scalable, because
 it does implements a template to standardize the data from the general models.
