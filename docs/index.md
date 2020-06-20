@@ -20,7 +20,16 @@ situation, the charts may provide insights to them.
 
 ## About technological choices
 
-- Solução tecnológica
+To develop the mobile app it was used Flutter. It is a Google's UI toolkit for crafting
+beautiful, natively compiled applications for mobile, web, and desktop from a single
+codebase. Therefore, the developed app can be used at least with either IOS and Android
+devices.
+
+With Flutter, the Visual Studio Code (VSCode) was chosen to integrate the development
+tools. Also, in the VSCode, it was installed the Flutter extension (which can be found
+[here](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter)) to
+complete the set up of the development environment. As a personal choice, a real device
+was used to run the app.
 
 ## Application Architecture and Features
 
