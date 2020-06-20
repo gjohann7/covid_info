@@ -1,8 +1,6 @@
 # COVID-19 INFO App 
 
-<div style="width:100%;">
-  <p style="text-align: left;"><i>Project developed by Guilherme Alexandre dos Santos Johann</i></p>
-</div>
+<p style="float: left;"><i>Project developed by Guilherme Alexandre dos Santos Johann</i></p>
 
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <p style="max-width:60%;">The project was developed under Mobile Applications and Services course from the Software Engineering Master at Superior School of Technology, Polytechnic Institute of Setúbal (ESTS/IPS) during the 2020 year.</p>
