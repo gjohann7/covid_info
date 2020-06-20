@@ -2,17 +2,8 @@
 
 *Project developed by Guilherme Alexandre dos Santos Johann*
 
-<div style="display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: baseline;
-	align-content: space-between;">
-  <span style="max-width:40%;">
-    The project was developed under Mobile Applications and Services course from the Software
-    Engineering Master at Superior School of Technology, Polytechnic Institute of Setúbal
-    (ESTS/IPS) during the 2020 year.
-  </span>
+<div style="display: flex; justify-content: space-around; align-items: baseline;">
+  <p style="max-width:100px;">The project was developed under Mobile Applications and Services course from the Software Engineering Master at Superior School of Technology, Polytechnic Institute of Setúbal (ESTS/IPS) during the 2020 year.</p>
   <img src="https://github.com/gjohann7/covid_info/blob/master/docs/assets/logo-ESTS.png?raw=true" alt="IPS logo">
 </div>
 
