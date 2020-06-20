@@ -43,7 +43,7 @@ used charts configurations and behaviors were set.
 
 The first section was touch to be easy of use and intuitive. Yet, there was no such
 beautiful art to please the user. Also, in this section were done the instructions
-to retrieve the localization, and then the current country name.
+to retrieve the device localization, and then the current country name.
 
 ### Logic Aspect
 
@@ -80,17 +80,19 @@ pie, bar (the vertical and horizontal ones), line - as time series, and stacked 
 charts. In addition to the graphics being interactable, they also satisfy the data
 visualization principles.
 
-### Brief Recap
+### Brief Notes
 
-- Características do sistema
-  - Utilização de hardware especifico;
-  - Integração de métricas de utilização dos utilizadores;
-  - Portabilidade; Usabilidade;
-  - Escalabilidade;
-  - Eficiência;
-  - Fiabilidade;
-  - Segurança;
-  - Facilidade de manutenção.
+With the use of the `chart_data` model, the system becomes much more scalable, because
+it does implements a template to standardize the data from the general models.
+
+The speed of the app also depends on the user Internet connection, thus, there are also
+indications in the UI when the app is loading the data. After the data are retrieved, the
+charts are fastly rendered. Yet, with the use of the database, if there was no connection
+to the Internet at all, an out of date data will be used to render the visualizations, and
+it also will be informed to the user too.
+
+Finally, with the use of the described architecture, the app source code is highly adaptative,
+understandable and modularized. Therefore, it is easy to manage and make improvements.
 
 ## What spoke who used this App
 
