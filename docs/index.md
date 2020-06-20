@@ -47,9 +47,9 @@ to retrieve the localization, and then the current country name.
 
 ### Logic Aspect
 
-The second section is responsible for the app business role. This can be defined as the
-core section because it affects the UI and the database, as well as it is responsible to
-effectively connect to the COVID-19 API.
+The second section is responsible for the app business role. This one can be defined
+as the core section because it affects the UI and the database, as well as it is
+responsible for effectively connect to the COVID-19 API.
 
 >The API used can be found [here](https://covid19api.com/), and its documentation, [here](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest).
 
@@ -61,9 +61,17 @@ The logic flow complies to this process pattern:
       - If fails or there is no data stored, throws an error.
 4. Return either an object with the data requested or an error.
 
-### Database
+### Database and Models
 
-### Models
+These sections describe the models of the business role and define how the system
+can interact with the database. Even though it may seem strange, not all the models
+are persisted.
+
+The persisted models are the `global`, `country` and `all status by country`. These three
+models hold all the necessary data from the app. The other models support the logic of the
+communication between the software layers. Among the support models, an important one is the
+`chart data` model. It provides a template from which all models can be rendered by the
+charts.
 
 ### Charts
 
