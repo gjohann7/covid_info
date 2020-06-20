@@ -33,17 +33,17 @@ was used to run the app.
 
 ## Application Architecture and Features
 
-The project was divided into these five sections (1) **Pages**, where the user interfaces (UI)
-were designed, (2) **Logic aspect**, where the bridge between the app with the database controller
-and the API were developed, (3) **Database**, where the database configurations were established,
-(4) **Models**, where the models used in the app were defined, and (5) **Charts**, where all
+The project was divided into these five sections: (1) **Pages**, where the user interfaces (UI)
+were designed; (2) **Logic aspect**, where the bridge between the app with the database controller
+and the API were developed; (3) **Database**, where the database configurations were established;
+(4) **Models**, where the models used in the app were defined; and (5) **Charts**, where all
 used charts configurations and behaviors were set.
 
 ### Pages (UI) 
 
 The first section was touch to be easy of use and intuitive. Yet, there was no such
-beatiuful art to please the user. Also, the instructions to retrieve the localization
-and then the current country name were done.
+beautiful art to please the user. Also, in this section were done the instructions
+to retrieve the localization, and then the current country name.
 
 ### Logic Aspect
 
@@ -68,9 +68,9 @@ and then the current country name were done.
 ## What spoke who used this App
 
 The app was installed in some devices for its owners to test/use the COVID-19 INFO app.
-It was said to be intuitive, easy to use and direct to the point. Also, there was noted
-that the app does not have many features besides its goal. Also this last observation
-pointed the app interface as not polluted.
+It was described to be intuitive, easy to use and to be direct to the point. Also,
+there was noted that the app does not have many features besides its goal. Also, this
+last observation pointed out the app interface as not polluted.
 
 <br/>
 
