@@ -1,7 +1,7 @@
 # COVID-19 INFO
 [![made with flutter](https://github.com/gjohann7/covid_info/blob/master/badges/mobile-flutter-blue.svg)](https://flutter.dev/)
 ![development status](https://github.com/gjohann7/covid_info/blob/master/badges/status-finished-brightgreen.svg?raw=true)
-[![about the app](https://raw.githubusercontent.com/gjohann7/covid_info/8c8229514227dde59ac24295ad26d3e03ef55044/badges/docs-about-orange.svg)](https://gjohann7.github.io/covid_info/)
+[![about the app](https://github.com/gjohann7/covid_info/blob/master/badges/docs-about-orange.svg?raw=true)](https://gjohann7.github.io/covid_info/)
 
 This Flutter project aims to show a data visualization on the COVID-19 status.
 
