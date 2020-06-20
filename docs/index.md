@@ -1,7 +1,7 @@
 # COVID-19 INFO App 
 
 <head>
-<link rel="shortcut icon" type="image/x-icon" href="https://github.com/gjohann7/covid_info/blob/master/docs/static/images/favicon.png?raw=true">
+<link rel="shortcut icon" type="image/x-icon" href="docs/static/images/favicon.png">
 </head>
 
 *Guilherme Alexandre dos Santos Johann*
