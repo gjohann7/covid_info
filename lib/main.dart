@@ -33,6 +33,7 @@ class MyStatefulWidget extends StatefulWidget {
 class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   int _selectedIndex = 0;
   String selectedCountry = "";
+  List _tabOptions;
 
   final Geolocator geolocator = Geolocator()..forceAndroidLocationManager;
 
@@ -51,16 +52,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 
   @override
   Widget build(BuildContext context) {
-    List _tabOptions = [
-      HomePage(),
-      DashboardPage(),
-      DetailsPage(
-        red: red,
-        currentCountry: _currentAddress,
-        countryBloc: countryBloc,
-        allStatusByCountryBloc: allStatusByCountryBloc,
-      )
-    ];
+    _tabOptions = _getTabOptions();
     return Scaffold(
       appBar: AppBar(
         title: const Text('COVID-19 INFO'),
@@ -90,11 +82,27 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
     );
   }
 
-  void _onItemTapped(int index) {
+  _getTabOptions() {
+    return [
+      HomePage(),
+      DashboardPage(),
+      DetailsPage(
+        red: red,
+        currentCountry: _currentAddress,
+        countryBloc: countryBloc,
+        allStatusByCountryBloc: allStatusByCountryBloc,
+      )
+    ];
+  }
+
+  _onItemTapped(int index) async {
     if (_currentAddress != "") {
       setState(() {
         _selectedIndex = index;
       });
+    } else {
+      _getCurrentLocation();
+      _tabOptions = _getTabOptions();
     }
   }
 
