@@ -1,10 +1,12 @@
 # COVID-19 INFO
 
-*Project developed by Guilherme Alexandre dos Santos Johann*
+_Project developed by Guilherme Alexandre dos Santos Johann_
 
-<div style="display: flex; justify-content: space-around; align-items: center;">
-  <p style="max-width:60%;">The project was developed under Mobile Applications and Services course from the Software Engineering Master at Superior School of Technology, Polytechnic Institute of Setúbal (ESTS/IPS) during the 2020 year.</p>
+The project was developed under Mobile Applications and Services course from the Software Engineering Master at Superior School of Technology, Polytechnic Institute of Setúbal (ESTS/IPS) during the 2020 year.
+
+<div style="display: flex; flex-direction:column; justify-content: space-around; align-items: center;">
   <img src="https://github.com/gjohann7/covid_info/blob/master/docs/assets/logo-ESTS.png?raw=true" alt="IPS logo">
+  <p><b>Figure:</b> IPS logo.</p>
 </div>
 
 ## Application Goal and Who should use this App
@@ -39,11 +41,37 @@ and the API were developed; (3) **Database**, where the database configurations 
 (4) **Models**, where the models used in the app were defined; and (5) **Charts**, where all
 used charts configurations and behaviors were set.
 
-### Pages (UI) 
+### Pages (UI)
 
 The first section was touch to be easy of use and intuitive. Yet, there was no such
 beautiful art to please the user. Also, in this section were done the instructions
 to retrieve the device localization, and then the current country name.
+
+The following illustrations present the app UI. The first one shows the introductory page of the app.
+There are a welcome message, a brief app description and the data source. Below that, there is a bottom
+navigation bar which uses tabs to change the screen.
+
+<div style="display: flex; flex-direction:column; justify-content: space-around; align-items: center;">
+  <img src="https://github.com/gjohann7/covid_info/blob/master/docs/assets/illustration1_introductory_screen.png?raw=true" alt="Introductory page of the app">
+  <p><b>Illustration:</b> Introductory page of the app (June 27th, 2020).</p>
+</div>
+
+The second illustration shows a GIF presenting the global summary dashboard. This dashboard presents the
+status totality of the COVID-19.
+
+<div style="display: flex; flex-direction:column; justify-content: space-around; align-items: center;">
+  <img src="https://github.com/gjohann7/covid_info/blob/master/docs/assets/illustration2_global_summary_dashboard.gif?raw=true" alt="Global Summary Dashboard">
+  <p><b>Illustration:</b> Global Summary Dashboard (June 27th, 2020).</p>
+</div>
+
+The third and last illustration shows the second chart of the details section. It's an interactable timeline
+series chart. It presents the behavior of the active cases between the first-day case to the last day
+present in the API data.
+
+<div style="display: flex; flex-direction:column; justify-content: space-around; align-items: center;">
+  <img src="https://github.com/gjohann7/covid_info/blob/master/docs/assets/illustration3_active_cases_timeline_series_chart.png?raw=true" alt="Active Cases Timeline Series Chart">
+  <p><b>Illustration:</b> Active Cases Timeline Series Chart (June 27th, 2020).</p>
+</div>
 
 ### Logic Aspect
 
@@ -51,14 +79,15 @@ The second section is responsible for the app business role. This one can be def
 as the core section because it affects the UI and the database, as well as it is
 responsible for effectively connect to the COVID-19 API.
 
->The API used can be found [here](https://covid19api.com/), and its documentation, [here](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest).
+> The API used can be found [here](https://covid19api.com/), and its documentation, [here](https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest).
 
 The logic flow complies to this process pattern:
+
 1. Try to retrieve the data from the API;
 2. If succeed, treat the response data and turn it into objects, and also save the data in the database;
 3. Otherwise, throws an error:
    - In this case, the system tries to read the data requested to the API from the database:
-      - If fails or there is no data stored, throws an error.
+     - If fails or there is no data stored, throws an error.
 4. Return either an object with the data requested or an error.
 
 ### Database and Models
@@ -103,4 +132,4 @@ last observation pointed out the app interface as not polluted.
 
 <br/>
 
->End of document.
+> End of document.
